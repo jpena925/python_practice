@@ -62,3 +62,13 @@ my_pets = Pets(my_cats)
 
 #4 Output all of the cats walking using the my_pets instance
 my_pets.walk()
+
+
+class SuperList(list):
+    def __len__(self):
+        return 1000
+
+super_list1 = SuperList();
+super_list1.append(5)
+super_list1[5]
+print(issubclass(SuperList, list))
