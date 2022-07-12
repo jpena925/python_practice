@@ -70,5 +70,15 @@ class SuperList(list):
 
 super_list1 = SuperList();
 super_list1.append(5)
-super_list1[5]
 print(issubclass(SuperList, list))
+
+
+class Reed():
+    def __init__(self, type, density, age):
+        self.type = type
+        self.density = density
+        self.age = age
+
+
+reed1 = Reed('Glotin', 16, 0)
+print(reed1.type)
