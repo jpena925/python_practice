@@ -40,3 +40,10 @@ a = [(0,2), (4,3), (9,9), (10, -1)]
 
 a.sort(key = lambda x: x[1])
 print(a)
+
+#Comprehensions
+#return list of duplicates letters
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+
+duplicates = list({letter for letter in some_list if some_list.count(letter) > 1})
+print(duplicates)
