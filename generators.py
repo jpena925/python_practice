@@ -28,3 +28,5 @@ def fib2(number):
     return result
 
 print(fib2(20))
+
+#see python exercises for more 
